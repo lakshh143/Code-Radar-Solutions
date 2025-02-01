@@ -11,6 +11,6 @@ int main() {
     scanf("%c",&h);
     printf("Hexadecimal: %c\n",h);
     hl=l+2;
-    printf("Octal: %d",l);
+    printf("Octal: %d",hl);
     return 0;
 }
