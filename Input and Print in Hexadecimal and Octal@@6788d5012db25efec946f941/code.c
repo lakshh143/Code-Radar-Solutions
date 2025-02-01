@@ -8,8 +8,8 @@ int main() {
     int l,hl;
     char h;
     scanf("%d",&l);
-    scanf("%c",&h);
-    printf("Hexadecimal: %c\n",h);
+    scanf("%s",&h);
+    printf("Hexadecimal: %s\n",h);
     hl=l+2;
     printf("Octal: %d",hl);
     return 0;
