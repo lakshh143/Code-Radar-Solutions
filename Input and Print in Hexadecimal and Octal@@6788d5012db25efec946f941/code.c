@@ -5,11 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    int l;
+    int l,hl;
     char h;
     scanf("%d",&l);
     scanf("%c",&h);
     printf("Hexadecimal: %c\n",h);
+    hl=l+2;
     printf("Octal: %d",l);
     return 0;
 }
