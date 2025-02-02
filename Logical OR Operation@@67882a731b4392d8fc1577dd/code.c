@@ -2,9 +2,12 @@
 
 int main() {
     int a,b;
-    if (a orb>0){
+    if (a>0,b<0){
         printf("True");
-    }else{
+    }if{
+        printf("True");
+    }
+    else{
         printf("False");
     }
     return 0;
