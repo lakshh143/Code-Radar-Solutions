@@ -7,7 +7,7 @@ int main() {
         printf("Vowel");
     }else if(n!="aeiou"){
         printf("Consonant");
-    }else if(n='1234567890'){
+    }else if(n>='0' || n<='9'){
         printf("Digit");
     }else{
         printf("Special Character");
