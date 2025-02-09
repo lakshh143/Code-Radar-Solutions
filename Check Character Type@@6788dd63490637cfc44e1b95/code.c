@@ -5,12 +5,12 @@ int main() {
     scanf("%c",&n);
     if(n== 'a'|| n=='e'|| n=='i'||n=='o'||n=='u'||n== 'A'|| n=='E'|| n=='I'||n=='O'||n=='U'){
         printf("Vowel");
-    }else if(n>='a'|| n<='z' || n >='A' || n<= 'Z'){
-        printf("Consonant");
+    }else if(n=='@'|| n=='#' || n=='$' || n=='!' || n=='%' || n=='&'){
+        printf("Special Character");
     }else if(n >= '0' && n <='9'){
         printf("Digit");
     }else{
-        printf("Special Character");
+        printf("Consonant");
     }
     return 0;
 }
