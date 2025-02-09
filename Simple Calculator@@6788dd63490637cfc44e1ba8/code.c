@@ -7,15 +7,15 @@ int main() {
         printf("Error");
         return 1;
     }
-    if(c=='+'){
+    if(c =='+'){
         printf("%d",a+b);
-    }else if(c=='-'){
+    }else if(c =='-'){
         printf("%d",a-b);
-    }else if(c=='*'){
+    }else if(c =='*'){
         printf("%d",a*b);
-    }else if(c=='/'){
+    }else if(c =='/'){
         
-        if(b==0){
+        if(b ==0){
             printf("Division by Zero");
 
         }else{
