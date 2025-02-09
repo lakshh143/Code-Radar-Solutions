@@ -4,7 +4,7 @@ int main() {
     int a,b;
     char c;
     if(scanf("%d %c %d",&a,&c,&b) !=3){
-        printf("Error";)
+        printf("Error");
     }
     if(c=='+'){
         printf("%d",a+b);
