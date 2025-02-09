@@ -8,7 +8,7 @@ int main() {
     }else if(n!='a','e','i','o','u'){
         printf("Consonant");
     }else if(n='1234567890'){
-        printf("Digit")
+        printf("Digit");
     }else{
         printf("Special Character");
     }
