@@ -11,7 +11,14 @@ int main() {
     }else if(c=='*'){
         printf("%d",a*b);
     }else if(c=='/'){
-        printf("%d",a/b);
+        
+        if(b==0){
+            printf("Division by Zero");
+
+        }else{
+            printf("%d",a/b);
+        }
+        
     }else{
         printf("Error");
     }
