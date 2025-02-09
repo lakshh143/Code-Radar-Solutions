@@ -3,9 +3,9 @@
 int main() {
     char n;
     scanf("%c",&n);
-    if(n='a','e','i','o','u'){
+    if(n="aeiou"){
         printf("Vowel");
-    }else if(n!='a','e','i','o','u'){
+    }else if(n!="aeiou"){
         printf("Consonant");
     }else if(n='1234567890'){
         printf("Digit");
