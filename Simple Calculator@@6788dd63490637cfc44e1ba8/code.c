@@ -21,6 +21,8 @@ int main() {
             printf("%d",a/b);
         }
         
+    }else{
+        printf("Error");
     }
     
     return 0;
