@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    double a,b;
+    int a,b;
     char c;
     if(scanf("%d %c %d",&a,&c,&b) !=3){
         printf("error");
         return 1;
     }
     if(c =='+'){
-        printf("%lh",a+b);
+        printf("%d",a+b);
     }else if(c =='-'){
         printf("%d",a-b);
     }else if(c =='*'){
