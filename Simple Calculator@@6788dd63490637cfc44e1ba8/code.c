@@ -8,7 +8,7 @@ int main() {
         return 1;
     }
     if(c =='+'){
-        printf("%i",a+b);
+        printf("%c",a+b);
     }else if(c =='-'){
         printf("%d",a-b);
     }else if(c =='*'){
