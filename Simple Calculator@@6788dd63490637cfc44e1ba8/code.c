@@ -8,7 +8,7 @@ int main() {
         return 1;
     }
     if(c =='+'){
-        printf("%d",a+b);
+        printf("%i",a+b);
     }else if(c =='-'){
         printf("%d",a-b);
     }else if(c =='*'){
@@ -23,7 +23,7 @@ int main() {
         }
         
     }else{
-        printf("Invalid operator");
+        printf("error");
     }
     
     return 0;
