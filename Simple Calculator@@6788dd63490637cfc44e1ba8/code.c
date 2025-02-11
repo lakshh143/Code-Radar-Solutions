@@ -3,7 +3,9 @@
 int main() {
     int a,b;
     char d;
-    d='+','-','*','/';
+    scanf(%d %d,&a,&b);
+    getchar();
+    scanf("%c",&d);
     if(c=='+'){
         printf("%d",a+b);
     }else if(c =='-'){
@@ -12,11 +14,11 @@ int main() {
         printf("%d",a*b);
     }else if(c =='/'){
         
-        if(b ==0){
-            printf("Division by Zero");
+        if(b !=0){
+            printf("%d",a/b);
 
         }else{
-            printf("%d",a/b);
+            printf("error");
         }
         
     }else{
