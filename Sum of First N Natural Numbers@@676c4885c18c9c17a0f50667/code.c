@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    int i;
-    for(i=1;i<=i;i++){
-        printf("%d",a);
+    int a;
+    for(i=1;i<=a;i++){
+        printf("%d",a+i);
     }
     return 0;
 }
