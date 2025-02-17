@@ -6,5 +6,5 @@ int main(){
         m= i*n; 
     }
     printf("n x i = m %d\n",m);
-
+    return 0;
 }
