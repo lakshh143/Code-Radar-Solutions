@@ -2,6 +2,7 @@
 int main(){
     int a,b;
     scanf("%d",&a);
+    int a[n];
     for(int i=0;i<a;i++){
         scanf("%d",&a[i]);
     }
